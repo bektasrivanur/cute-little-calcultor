@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcultor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="calcultor-removebg-preview.png">
+</head>
+<body>
+    <h1>cute little calcultor!</h1></br>
+    <div class="calculator-box">
+    <div class="calcultor">
+    <input type="text" class="display" id="display" disabled>
+    <div class="keys">
+    <button class="button" onclick="sayi(1)">1</button>
+    <button class="button" onclick="sayi(2)">2</button>
+    <button class="button" onclick="sayi(3)">3</button>
+    <button class="button" onclick="isaret('+')">+</button></br>
+    <button class="button" onclick="sayi(4)">4</button>
+    <button class="button" onclick="sayi(5)">5</button>
+    <button class="button" onclick="sayi(6)">6</button>
+    <button class="button" onclick="isaret('-')">-</button></br>
+    <button class="button" onclick="sayi(7)">7</button>
+    <button class="button" onclick="sayi(8)">8</button>
+    <button class="button" onclick="sayi(9)">9</button>
+    <button class="button" onclick="isaret('*')">*</button></br>
+    <button style="width: 5cm;" class="button" onclick="sayi(0)">0</button>
+    <button class="button" onclick="isaret('/')">/</button></br>
+    <button class="button2" onclick="hesapla()">calculate!</button>
+    <button class="button2" onclick="birTaneTemizle()">c</button>
+    <button class="button2" onclick="hepsiniTemizle()">ac</button>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Minecraft"; 
+  src: url("Minecraft.ttf") format("truetype"); 
+}
+
+body {
+  background-color: #ffe98f; 
+  font-family: "Minecraft", ; 
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #cf8cfe;
+  font-weight: bold;
+  font-size: 48px;
+  background-color: #8e61af; 
+   display: inline-block;
+   padding: 5px 10px;
+  border-radius: 8px;
+  font-family: "Minecraft", sans-serif; 
+  box-shadow: 0 5px 15px #8e61af;
+} 
+
+.calculator-box {
+  background-color: #f7d98b;
+  border: 3px solid #b18cd9;
+  border-radius: 20px;
+  padding: 20px 30px;
+  box-shadow: 0 5px 15px #8e61af;
+  display: inline-block;
+}
+
+.calculator-box:hover {
+  background-color: #b18cd9;
+  transform: scale(1.05);
+}
+
+.button {
+  font-family: "Minecraft", sans-serif; 
+  font-size: 20px;
+  background-color: #ffe98f;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 3px 5px #8e61af;
+}
+
+.button2 {
+  font-family: "Minecraft", sans-serif; 
+  font-size: 20px;
+  background-color: #ffe98f;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 3px 5px #8e61af;
+}
+
+h1:hover {
+  color: #ffffff;
+  background-color: #f7d98b;
+  transform: scale(1.05);
+}
+
+.button:hover {
+  background-color: #cf8cfe;
+  transform: scale(1.05);
+}
+
+.button2:hover {
+  background-color: #cf8cfe;
+  transform: scale(1.05);
+}
+
+.display {
+  width: 220px;              
+  height: 50px;              
+  font-family: "Minecraft", sans-serif;
+  font-size: 24px;           
+  text-align: right;        
+  padding: 10px;             
+  border: none;
+  border-radius: 12px;       
+  background-color: #8e61af; 
+  color: #cf8cfe;               
+  outline: none;             
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  margin-bottom: 15px;       
+} 
